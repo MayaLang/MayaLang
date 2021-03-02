@@ -1,2 +1,4 @@
-package main;
-string x = 1;
+package main(){
+	string helloworld = "Hello, world!";;
+	int calc = 2+2;
+}
