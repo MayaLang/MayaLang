@@ -7,7 +7,7 @@ main(int argc, char **argv)
 {
     int argFile = argv[1];
     if(argFile=="" || argFile ==" " || argFile == NULL){
-        printf("Bad argument\nUsing: maya main.maya\n");
+        printf("Copyright (c) 2021 The Maya Authors. All rights reserved.\nMaya is tool to managing Maya source code\n\nUsage:\n        maya <file>\n");
     }else{
         FILE * sourcefile;
         sourcefile = fopen(argFile,"r");
@@ -15,7 +15,7 @@ main(int argc, char **argv)
         if(sourcefile==NULL){
             printf("Could not open this source file\n");
         }else{
-            int package = "meine";
+            int package = "main";
             if(package == "main"){
                 int c;
                 while((c = getc(sourcefile)) != EOF)
@@ -24,12 +24,7 @@ main(int argc, char **argv)
             }else{
                 printf("Package must be 'main'\n");
             }
+        }
     }
-    }
-
-
-
-
-
 	return 0;
 }
