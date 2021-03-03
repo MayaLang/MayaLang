@@ -2,4 +2,4 @@
 
 ## SOON...
 
-[Maya Banner](https://macioszektv.eu/mayabanner.png)
+![Maya Banner](https://macioszektv.eu/mayabanner.png)
