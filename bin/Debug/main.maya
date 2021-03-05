@@ -1,4 +1,10 @@
-package main(){
+class calc(int a, int b){
+    int c = a+b;
+    print("Calc: " + c)
+}
+
+package main()
+{
 	string helloworld = "Hello, world!";;
-	int calc = 2+2;
+	calc(2+3);
 }
