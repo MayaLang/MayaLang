@@ -1,4 +1,4 @@
-class calc(int a, int b){
+func calc(int a, int b){
     int c = a+b;
     print("Calc: " + c)
 }
