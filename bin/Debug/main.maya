@@ -5,6 +5,6 @@ func calc(int a, int b){
 
 package main()
 {
-	string helloworld = "Hello, world!";;
+	string helloworld = "Hello, world!";
 	calc(2+3);
 }
